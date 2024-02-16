@@ -1,0 +1,46 @@
+.premium {
+  &__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px;
+    margin-bottom: 80px;
+  }
+  &__left {
+    max-width: 50%;
+  }
+  &__right {
+    max-width: 50%;
+    padding: 10px 80px;
+  }
+  &__title {
+    font-size: 50px;
+    font-weight: 700px;
+    line-height: 60px;
+  }
+  &__item {
+    list-style-type: disc !important;
+    margin-top: 30px;
+    color: #676767;
+  }
+  &__span {
+    color: #6c5fbc;
+  }
+  &__btn {
+    margin-top: 66px;
+    padding: 18px 26px;
+    background-color: #6c5fbc;
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 0px;
+  }
+  &__btn:hover {
+    color: red;
+    background-color: rgb(127, 165, 69);
+  }
+  &__btn:active {
+    color: #6c5fbc;
+    background-color: white;
+  }
+}

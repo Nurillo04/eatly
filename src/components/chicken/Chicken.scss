@@ -1,0 +1,24 @@
+.chicken {
+  &__top {
+    height: 378px;
+    border: 0px;
+    border-radius: 0px 40px;
+    background-image: url(../../assets/PNG/chicken.png);
+  }
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0px 40px;
+  }
+  &__center {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+    gap: 30px;
+  }
+  &__text {
+    color: #8e97a6;
+  }
+}

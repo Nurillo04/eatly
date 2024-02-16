@@ -1,0 +1,32 @@
+.menu {
+  margin-top: 80px;
+
+  background-color: #5c4eae;
+  &__wrapper {
+    padding: 34px;
+    color: white;
+    background-image: url(../../assets/PNG/BG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+  }
+  &__item1 {
+    font-size: 35px;
+    line-height: 54px;
+    font-weight: 700;
+  }
+  &__item2 {
+    width: 206px;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 500;
+    color: #cbd5e1;
+  }
+}

@@ -2,9 +2,12 @@
   margin-top: 50px;
   &__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    // gap: 50px;
+    gap: 50px;
+  }
+  &__left {
+    width: 50%;
   }
   &__line {
     display: flex;
@@ -52,6 +55,19 @@
     &:active {
       background: white;
       color: #6c5fbc;
+    }
+  }
+  .hero__right {
+    background-image: url(../../assets/PNG/Food.png);
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 400px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .hero {
+    &__title {
+      width: 303px;
     }
   }
 }

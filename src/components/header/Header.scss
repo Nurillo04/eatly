@@ -62,3 +62,9 @@
 hr {
   background-color: #cbcbcb;
 }
+@media only screen and (max-width: 768px) {
+  .list {
+    margin-top: 5px;
+    gap: 30px;
+  }
+}

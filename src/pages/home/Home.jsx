@@ -4,6 +4,7 @@ import Chicken from "../../components/chicken/Chicken";
 import Hero from "../../components/hero/Hero";
 import Menu from "../../components/menu/Menu";
 import Premium from "../../components/premium/Premium";
+import Purchases from "../../components/purchases/Purchases";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Premium />
       <Chicken />
       <Card />
+      <Purchases />
     </div>
   );
 };

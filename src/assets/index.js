@@ -11,6 +11,7 @@ import heart from "./PNG/Heart.png";
 import add from "./PNG/Add.png";
 import trending from "./PNG/trending.png";
 import suprema from "./PNG/suprema.png";
+import view from "./PNG/view.png";
 
 export {
   logo,
@@ -26,4 +27,5 @@ export {
   add,
   trending,
   suprema,
+  view,
 };

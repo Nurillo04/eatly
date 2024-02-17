@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 .cards {
   margin-top: 100px;
   &__title {
@@ -6,6 +8,9 @@
     color: #323142;
     text-align: center;
     margin-bottom: 75px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
   }
   &__span {
     color: #6c5fbc;
@@ -24,10 +29,12 @@
     border-radius: 15px;
     background-color: white;
     padding: 15px 15px;
+
     box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
     -webkit-box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
     -moz-box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
   }
+
   &__heart {
     position: absolute;
     left: 175px;
@@ -45,6 +52,9 @@
     padding: 6px 15px;
     background-color: #f7edd0;
     color: #daa31a;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__btn2 {
     border: 0px;
@@ -52,6 +62,9 @@
     padding: 6px 15px;
     background: #f7c5ba;
     color: #fb471d;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__btn3 {
     border: 0px;
@@ -59,6 +72,9 @@
     padding: 6px 15px;
     background: #e7dddd;
     color: #309d5b;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__center {
     display: flex;
@@ -68,6 +84,9 @@
   }
   &__text {
     color: #8e97a6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__bottom {
     display: flex;
@@ -78,10 +97,18 @@
     font-size: 18px;
     font-weight: 700;
     color: #8e97a6;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
   }
   &__spans {
     font-size: 25px;
     font-weight: 700;
     color: #323142;
+  }
+  &__view {
+    display: flex;
+    justify-content: end;
+    margin-top: 60px;
   }
 }

@@ -6,6 +6,8 @@ import {
   start,
   suprema,
   trending,
+  vektor,
+  view,
 } from "../../assets";
 import "./Card.scss";
 
@@ -121,6 +123,10 @@ const Card = () => {
                 </li>
               </ul>
             </nav>
+            <div className="cards__view">
+              {" "}
+              <img src={view} alt="rasm" />
+            </div>
           </div>
         </div>
       </section>

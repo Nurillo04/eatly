@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.purchases {
+  &__title {
+    width: 510px;
+    color: #18181b;
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  &__span {
+    color: #6c5fbc;
+  }
+  &__card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+  }
+  &__cards {
+    position: relative;
+    width: 345px;
+    background-color: white;
+    padding: 4px 10px;
+    border-radius: 12px;
+    margin-top: 15px;
+
+    box-shadow: 2px 37px 34px 9px rgba(179, 255, 179, 0.75);
+    -webkit-box-shadow: 2px 37px 34px 9px rgba(179, 255, 179, 0.75);
+    -moz-box-shadow: 2px 37px 34px 9px rgba(179, 255, 179, 0.75);
+  }
+  &__day {
+    position: absolute;
+    bottom: -7px;
+    right: 35px;
+    color: #acadb9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  &__title5 {
+    color: #323142;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  &__subtitle {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #323142;
+  }
+  &__subtitle2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #f1534e;
+  }
+}

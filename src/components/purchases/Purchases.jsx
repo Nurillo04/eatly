@@ -1,5 +1,14 @@
 import React from "react";
-import { chickenHell, suprema, trending } from "../../assets";
+import {
+  chickenHell,
+  diver,
+  diveras,
+  expensive,
+  monthIcon,
+  suprema,
+  trending,
+  vocher,
+} from "../../assets";
 import "./Purchases.scss";
 
 const Purchases = () => {
@@ -47,8 +56,41 @@ const Purchases = () => {
                 <p className="purchases__day">Yesterday</p>
               </div>
             </div>
-            <div className="purchases__left"></div>
+            <div className="purchases__right">
+              <div className="purchases__month">
+                <h6 className="purchases__title6">Purchases</h6>
+                <button className="purchases__btn">
+                  This month
+                  <img src={monthIcon} alt="icon" />
+                </button>
+              </div>
+
+              <div className="purchases__cardss">
+                <div className="purchases__expense">
+                  <img src={expensive} alt="rasm" width={50} height="50" />
+                  <div className="purchases__hell">
+                    <h6 className="purchases__title6">Expense</h6>
+                    <p className="purchases__subtitle3">Increased By 10%</p>
+                  </div>
+                </div>
+                <p className="purchases__sum">$409.00</p>
+              </div>
+              <img src={diver} alt="rasm" width={550} height="9" />
+
+              <div className="purchases__cardss">
+                <div className="purchases__expense">
+                  <img src={vocher} alt="rasm" width={50} height="50" />
+                  <div className="purchases__hell">
+                    <h6 className="purchases__title6">Vocher Usage</h6>
+                    <p className="purchases__subtitle3">Increased By 5%</p>
+                  </div>
+                </div>
+                <p className="purchases__sum">$45.78</p>
+              </div>
+              <img src={diveras} alt="rasm" width={550} height="9" />
+            </div>
           </div>
+          <hr className="purchases__hr" />
         </div>
       </section>
     </div>

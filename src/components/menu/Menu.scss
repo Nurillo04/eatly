@@ -39,3 +39,17 @@
     font-style: normal;
   }
 }
+@media only screen and (max-width: 768px) {
+  .menu {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .menu {
+    margin-top: 20px;
+    &__nav {
+      flex-direction: column;
+      gap: 30px;
+    }
+  }
+}

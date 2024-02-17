@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.customer {
+  &__title {
+    color: #323142;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  &__span {
+    color: #6c5fbc;
+  }
+  &__expense {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  &__hell {
+    margin-top: 20px;
+  }
+  &__title6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #1a202c;
+  }
+  &__subtitle3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #a0aec0;
+  }
+  &__card1 {
+    background-color: white;
+    padding: 18px 20px;
+    border-radius: 14px;
+    box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+    -webkit-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+    -moz-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+  }
+  &__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 350px;
+  }
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    align-items: start;
+  }
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  &__card2 {
+    padding: 18px 20px;
+    border: 0px;
+    border-radius: 14px;
+    background-color: white;
+    box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+    -webkit-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+    -moz-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+  }
+}

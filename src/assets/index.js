@@ -12,8 +12,22 @@ import add from "./PNG/Add.png";
 import trending from "./PNG/trending.png";
 import suprema from "./PNG/suprema.png";
 import view from "./PNG/view.png";
+import monthIcon from "./SVG/chevron.svg";
+import expensive from "./PNG/expense.png";
+import diver from "./PNG/divider.png";
+import vocher from "./PNG/voucher.png";
+import diveras from "./PNG/dividerAS.png";
+import odam from "./PNG/odam.png";
+import path from "./PNG/Path.png";
+import star from "./PNG/Stars.png";
+import getbg from "./PNG/getbg.png";
+import getfood from "./PNG/getfood.png";
+import logofooter from "./PNG/Logofooter.png";
 
 export {
+  logofooter,
+  getfood,
+  getbg,
   logo,
   korzinka,
   food,
@@ -28,4 +42,12 @@ export {
   trending,
   suprema,
   view,
+  monthIcon,
+  expensive,
+  diver,
+  vocher,
+  diveras,
+  odam,
+  path,
+  star,
 };

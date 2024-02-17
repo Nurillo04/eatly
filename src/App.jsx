@@ -4,6 +4,7 @@ import Header from "./components/header/Header";
 import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Footer from "./components/footer/Footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Footer />
       </Router>
     </div>
   );

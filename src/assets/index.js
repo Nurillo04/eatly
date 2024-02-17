@@ -6,4 +6,24 @@ import vektor from "./SVG/vektor.svg";
 import chicken from "./PNG/chicken.png";
 import start from "./SVG/Star.svg";
 import bookmark from "./SVG/Bookmark.svg";
-export { logo, korzinka, food, phone, vektor, chicken, start, bookmark };
+import chickenHell from "./PNG/chickenHill.png";
+import heart from "./PNG/Heart.png";
+import add from "./PNG/Add.png";
+import trending from "./PNG/trending.png";
+import suprema from "./PNG/suprema.png";
+
+export {
+  logo,
+  korzinka,
+  food,
+  phone,
+  vektor,
+  chicken,
+  start,
+  bookmark,
+  chickenHell,
+  heart,
+  add,
+  trending,
+  suprema,
+};

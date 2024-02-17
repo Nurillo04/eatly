@@ -5,8 +5,83 @@
     font-weight: 600;
     color: #323142;
     text-align: center;
+    margin-bottom: 75px;
   }
   &__span {
     color: #6c5fbc;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  &__list {
+    width: 224px;
+    height: 420px;
+    position: relative;
+
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 15px;
+    box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
+    -webkit-box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
+    -moz-box-shadow: 2px 37px 34px 9px rgba(157, 196, 186, 0.75);
+  }
+  &__heart {
+    position: absolute;
+    left: 175px;
+  }
+  &__imgs {
+    position: relative;
+  }
+  &__img {
+    height: 208px;
+    margin-bottom: 10px;
+  }
+  &__btn {
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    background-color: #f7edd0;
+    color: #daa31a;
+  }
+  &__btn2 {
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    background: #f7c5ba;
+    color: #fb471d;
+  }
+  &__btn3 {
+    border: 0px;
+    border-radius: 5px;
+    padding: 6px 15px;
+    background: #e7dddd;
+    color: #309d5b;
+  }
+  &__center {
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+    gap: 15px;
+  }
+  &__text {
+    color: #8e97a6;
+  }
+  &__bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__sum {
+    font-size: 18px;
+    font-weight: 700;
+    color: #8e97a6;
+  }
+  &__spans {
+    font-size: 25px;
+    font-weight: 700;
+    color: #323142;
   }
 }

@@ -5,7 +5,7 @@
   gap: 50px;
 }
 .item {
-  font-weight: 500px;
+  font-weight: 500;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -68,9 +68,9 @@
 hr {
   background-color: #cbcbcb;
 }
-@media only screen and (max-width: 7px) {
+@media only screen and (max-width: 768px) {
   .list {
     margin-top: 5px;
-    gap: 30px;
+    gap: 20px;
   }
 }

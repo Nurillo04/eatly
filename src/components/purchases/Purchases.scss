@@ -8,7 +8,7 @@
     align-items: center;
   }
   &__title {
-    width: 510px;
+    max-width: 510px;
     color: #18181b;
     font-size: 50px;
     font-weight: 700;
@@ -28,7 +28,7 @@
   }
   &__cards {
     position: relative;
-    width: 345px;
+    max-width: 345px;
     background-color: white;
     padding: 4px 10px;
     border-radius: 12px;
@@ -73,14 +73,14 @@
   }
   &__right {
     background-color: white;
-    width: 50%;
+    max-width: 50%;
     padding: 30px;
     border: 0px;
     border-radius: 12px;
     margin-top: 50px;
   }
   &__left {
-    width: 50%;
+    max-width: 50%;
   }
   &__title6 {
     font-family: "Poppins", sans-serif;
@@ -126,5 +126,139 @@
   &__hr {
     background-color: #cbcbcb;
     margin-top: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .purchases {
+    &__right {
+      background-color: white;
+      max-width: 50%;
+      padding: 30px;
+      border: 0px;
+      border-radius: 12px;
+      margin-top: 250px;
+    }
+    &__title {
+      max-width: 480px;
+      font-size: 40px;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .purchases {
+    &__wrapper {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+      justify-content: start;
+      max-width: 100%;
+      gap: 50px;
+    }
+    &__title {
+      width: 350px;
+      color: #18181b;
+      font-size: 30px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 700;
+      font-style: normal;
+      text-align: center;
+    }
+    &__span {
+      color: #6c5fbc;
+    }
+    &__card {
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 20px;
+      position: relative;
+    }
+    &__cards {
+      position: relative;
+      width: 360px;
+      // border: 5px solid red;
+      background-color: white;
+      padding: 4px 100px 5px 0px;
+      border-radius: 12px;
+      margin-top: 15px;
+    }
+    &__day {
+      position: absolute;
+      bottom: -7px;
+      right: 35px;
+      color: #acadb9;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    &__title5 {
+      color: #323142;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+    }
+    &__subtitle {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: #323142;
+    }
+    &__subtitle2 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #f1534e;
+    }
+
+    &__right {
+      background-color: white;
+      max-width: 100%;
+      padding: 30px;
+      border: 0px;
+      border-radius: 12px;
+      margin-top: 50px;
+    }
+    &__left {
+      max-width: 50%;
+    }
+    &__title6 {
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+      color: #1a202c;
+    }
+    &__btn {
+      border: 0px;
+      border-radius: 15px;
+      padding: 12px 20px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      background-color: #fafafa;
+      color: #1a202c;
+    }
+    &__month {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    &__expense {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    &__hell {
+      margin-top: 20px;
+    }
+
+    &__hr {
+      margin-top: 50px;
+    }
+  }
+  .diver {
+    display: none;
   }
 }

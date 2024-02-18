@@ -5,6 +5,7 @@ import Home from "./pages/home/Home";
 import NotFound from "./pages/notFound/NotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/footer/Footer";
+import Dashes from "./pages/dishes/Dashes";
 
 const App = () => {
   return (
@@ -12,8 +13,9 @@ const App = () => {
       <Router>
         <Header />
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="home" element={<Home />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="dishes" element={<Dashes />} />
         </Routes>
         <Footer />
       </Router>

@@ -52,3 +52,20 @@
 #linkiden:active {
   fill: aqua;
 }
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 375px) {
+  .footer {
+    &__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap-reverse;
+      gap: 40px;
+      justify-content: center;
+    }
+    &__img {
+      margin-left: 80px;
+    }
+  }
+}

@@ -10,7 +10,7 @@ const Premium = () => {
         <div className="container">
           <div className="premium__wrapper">
             <div className="premium__left">
-              <img src={phone} alt="rasm" />
+              <img src={phone} alt="rasm" width={345} />
             </div>
             <div className="premium__right">
               <h2 className="premium__title">

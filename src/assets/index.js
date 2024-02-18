@@ -23,8 +23,12 @@ import star from "./PNG/Stars.png";
 import getbg from "./PNG/getbg.png";
 import getfood from "./PNG/getfood.png";
 import logofooter from "./PNG/Logofooter.png";
+import minus from "./PNG/minus.png";
+import plus from "./PNG/Plus.png";
 
 export {
+  minus,
+  plus,
   logofooter,
   getfood,
   getbg,

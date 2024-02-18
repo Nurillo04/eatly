@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.asked {
+  &__dishes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+  }
+  &__title {
+    font-family: "Poppins", sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 54px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #323142;
+  }
+  &__table {
+    transition: 0.5s ease-in-out;
+  }
+  &__transition {
+    transition: 0.1s;
+    transform: rotate(0deg);
+  }
+  &__how {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    transition: 0.5s;
+    img {
+      &:hover {
+        .howw {
+          display: none;
+        }
+      }
+    }
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 23px;
+      font-weight: 600;
+      line-height: 59px;
+      letter-spacing: 0em;
+      text-align: left;
+      color: #323142;
+    }
+  }
+
+  &__howw {
+    transition: 5s;
+  }
+  &__text {
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #686868;
+  }
+  &__img {
+    transition: 5s;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .asked {
+    &__dishes {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      gap: 5px;
+    }
+    &__title {
+      font-size: 18px;
+      line-height: 34px;
+    }
+
+    &__how {
+      gap: 5px;
+
+      h2 {
+        font-size: 17px;
+      }
+    }
+
+    &__howw {
+      transition: 5s;
+    }
+    &__text {
+      font-size: 15px;
+    }
+  }
+}

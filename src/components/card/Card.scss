@@ -112,3 +112,80 @@
     margin-top: 60px;
   }
 }
+@media only screen and (max-width: 768px) {
+  .cards {
+    margin-top: 50px;
+    &__title {
+      margin-bottom: 75px;
+    }
+
+    &__list {
+      max-width: 200px;
+      height: 420px;
+      padding: 15px 8px;
+    }
+
+    &__heart {
+      left: 155px;
+    }
+    &__imgs {
+      width: 159px;
+    }
+    &__img {
+      max-width: 200px;
+      height: 208px;
+      margin-bottom: 10px;
+    }
+    &__list4 {
+      // border: 5px solid red;
+      display: none;
+    }
+    &__list5 {
+      // border: 5px solid red;
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cards {
+    margin-top: 20px;
+    &__title {
+      font-size: 35px;
+      margin-bottom: 45px;
+    }
+    &__item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    &__list {
+      max-width: 150px;
+      height: 450px;
+      padding: 8px 8px;
+    }
+
+    &__heart {
+      left: 120px;
+    }
+    &__imgs {
+      max-width: 120px;
+    }
+    &__img {
+      max-width: 140px;
+      height: 200px;
+      margin-bottom: 10px;
+    }
+    &__list4 {
+      // border: 5px solid red;
+      display: block;
+    }
+    &__list5 {
+      // border: 5px solid red;
+      display: none;
+    }
+  }
+}

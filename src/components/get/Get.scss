@@ -35,3 +35,23 @@
     border: 0px;
   }
 }
+@media only screen and (max-width: 375px) {
+  .get {
+    align-items: center;
+    &__wrapper {
+      padding: 17px 10px;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+    &__form {
+      display: flex;
+      justify-content: space-between;
+      gap: 6px;
+      width: 330px;
+      margin: 30px 0px;
+    }
+    &__img {
+      margin-left: 60px;
+    }
+  }
+}

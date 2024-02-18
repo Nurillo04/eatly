@@ -82,10 +82,15 @@ const Card = () => {
                   </div>
                 </li>
 
-                <li className="cards__list">
+                <li className="cards__list  cards__list4">
                   <div className="cards__imgs">
                     <img className="cards__heart" src={heart} alt="rasm" />
-                    <img className="cards__img" src={chickenHell} alt="rasm" />
+                    <img
+                      className="cards__img"
+                      src={chickenHell}
+                      // width={160}
+                      alt="rasm"
+                    />
                   </div>
                   <button className="cards__btn">Healthy</button>
                   <h4>The Chicken King</h4>
@@ -102,7 +107,7 @@ const Card = () => {
                   </div>
                 </li>
 
-                <li className="cards__list">
+                <li className="cards__list cards__list5">
                   <div className="cards__imgs">
                     <img className="cards__heart" src={heart} alt="rasm" />
                     <img className="cards__img" src={trending} alt="rasm" />

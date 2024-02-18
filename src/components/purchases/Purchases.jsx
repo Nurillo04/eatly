@@ -75,11 +75,17 @@ const Purchases = () => {
                 </div>
                 <p className="purchases__sum">$409.00</p>
               </div>
-              <img src={diver} alt="rasm" width={550} height="9" />
+              <img
+                className="diver"
+                src={diver}
+                alt="rasm"
+                max-width={540}
+                height="9"
+              />
 
               <div className="purchases__cardss">
                 <div className="purchases__expense">
-                  <img src={vocher} alt="rasm" width={50} height="50" />
+                  <img src={vocher} alt="rasm" max-width={50} height="50" />
                   <div className="purchases__hell">
                     <h6 className="purchases__title6">Vocher Usage</h6>
                     <p className="purchases__subtitle3">Increased By 5%</p>
@@ -87,7 +93,13 @@ const Purchases = () => {
                 </div>
                 <p className="purchases__sum">$45.78</p>
               </div>
-              <img src={diveras} alt="rasm" width={550} height="9" />
+              <img
+                className="diver"
+                src={diveras}
+                alt="rasm"
+                max-width={540}
+                height="9"
+              />
             </div>
           </div>
           <hr className="purchases__hr" />

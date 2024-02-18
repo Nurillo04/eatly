@@ -31,5 +31,28 @@
 }
 @media only screen and (max-width: 768px) {
   .chicken {
+    &__top {
+      height: 200px;
+      border: 0px;
+      border-radius: 0px 20px;
+      background-image: url(../../assets/PNG/chickenbg2.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 20px;
+      padding: 0px 10px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 500;
+      font-style: normal;
+    }
+    &__center {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+    }
   }
 }

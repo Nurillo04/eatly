@@ -43,7 +43,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 350px;
+    max-width: 350px;
   }
   &__cards {
     display: flex;
@@ -64,5 +64,23 @@
     box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
     -webkit-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
     -moz-box-shadow: 2px 31px 37px -7px rgba(47, 140, 140, 0.75);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+}
+
+@media only screen and (max-width: 425px) {
+  .customer {
+    &__card2 {
+      display: none;
+    }
+  }
+}
+@media only screen and (max-width: 375px) {
+  .customer {
+    &__card2 {
+      display: none;
+    }
   }
 }

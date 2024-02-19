@@ -35,19 +35,17 @@ const Header = ({ name }) => {
                     <img src={korzinka} alt="rasm" />
                   </li>
                   <li>
-                    <button className="btn1">
-                      {name ? name : null}
-                      <NavLink to="/" className="btn1-login">
+                    <NavLink to="/" className="btn1-login">
+                      <button className="btn1">
+                        {name ? name : null}
                         Login
-                      </NavLink>
-                    </button>
+                      </button>
+                    </NavLink>
                   </li>
                   <li>
-                    <button className="btn2">
-                      <NavLink to="/register" className="btn2-login">
-                        Sign up
-                      </NavLink>
-                    </button>
+                    <NavLink to="/register" className="btn2-login">
+                      <button className="btn2">Sign up</button>
+                    </NavLink>
                   </li>
                 </ul>
               </nav>

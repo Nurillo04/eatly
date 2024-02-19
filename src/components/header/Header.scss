@@ -29,6 +29,12 @@
   border: 0px;
   border-radius: 17px;
   background-color: inherit;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
+  -moz-box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
+  box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
 }
 .btn1:hover {
   background-color: #6c5fbc;
@@ -40,30 +46,48 @@
 .btn2 {
   padding: 17px 26px;
   border: 0px;
-  background-color: #6c5fbc;
-  color: white;
+  background-color: inherit;
+  // color: #6c5fbc;
   border-radius: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  -webkit-box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
+  -moz-box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
+  box-shadow: 1px 7px 39px 4px rgba(29, 134, 217, 0.2);
 }
 .btn2:hover {
-  background-color: white;
-  color: white;
+  background-color: #6c5fbc;
+  color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .btn1-login {
   color: red;
   font-size: 17px;
   font-weight: 700;
   color: #606060 !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .btn1-login:hover {
   color: white !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .btn2-login {
   font-size: 17px;
   font-weight: 700;
-  color: white !important;
+  color: rgb(255, 255, 255) !important;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 .btn2-login:hover {
-  color: #606060 !important;
+  color: #6c5fbc !important;
 }
 hr {
   background-color: #cbcbcb;

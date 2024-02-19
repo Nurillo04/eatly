@@ -32,6 +32,7 @@ const Login = () => {
                       name="user-email"
                       id="user-email"
                       placeholder="Email"
+                      required
                     />
                   </div>
                   <div className="login__div">

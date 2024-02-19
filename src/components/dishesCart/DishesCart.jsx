@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useProduc from "../../app/useProduc";
+import "./dishesCart.scss";
 
 const DishesCart = () => {
   const { loading, product, error, getProduct } = useProduc();

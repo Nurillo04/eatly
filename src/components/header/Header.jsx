@@ -37,7 +37,7 @@ const Header = ({ name }) => {
                   <li>
                     <button className="btn1">
                       {name ? name : null}
-                      <NavLink to="/login" className="btn1-login">
+                      <NavLink to="/" className="btn1-login">
                         Login
                       </NavLink>
                     </button>

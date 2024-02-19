@@ -17,16 +17,16 @@ const App = () => {
   return (
     <div>
       <Router>
-        <Header name={name} />
+        {/* <Header name={name} /> */}
         <Routes>
           <Route path="home" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="dishes" element={<Dashes />} />
-          <Route path="login" element={<Login setName={setName} />} />
+          <Route path="/" element={<Login setName={setName} />} />
           <Route path="forget" element={<ForgetPassword />} />
           <Route path="register" element={<Register />} />
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </Router>
     </div>
   );

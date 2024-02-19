@@ -41,11 +41,17 @@ const ForgetPassword = () => {
                       name="user-email"
                       id="user-email"
                       placeholder="Email"
+                      required
                     />
                   </div>
-                  <button type="submit" className="login__verify">
+                  <Link to="/" className="login__sign">
+                    <button type="submit" className="login__verify">
+                      Verify
+                    </button>
+                  </Link>
+                  {/* <button type="submit" className="login__verify">
                     Verify
-                  </button>
+                  </button> */}
                 </form>
               </div>
               <div className="login__bottom">

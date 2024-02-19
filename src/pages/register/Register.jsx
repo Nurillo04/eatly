@@ -55,15 +55,16 @@ const Register = () => {
                       placeholder="Password"
                     />
                   </div>
-
-                  <button type="submit" className="login__btn">
-                    sign up
-                  </button>
+                  <Link to="/home" className="login__sign">
+                    <button type="submit" className="login__btn">
+                      sign up
+                    </button>
+                  </Link>
                 </form>
 
                 <p className="login__subtitle">
                   Already Have An Account?
-                  <Link to="/login" className="login__sign">
+                  <Link to="/" className="login__sign">
                     Log In
                   </Link>
                 </p>

@@ -48,9 +48,11 @@ const Login = () => {
                   <Link to="/forget" className="login__forget">
                     Forget Password ?
                   </Link>
-                  <button type="submit" className="login__btn">
-                    sign up
-                  </button>
+                  <Link to="/register">
+                    <button type="submit" className="login__btn">
+                      sign up
+                    </button>
+                  </Link>
                 </form>
 
                 <p className="login__subtitle">

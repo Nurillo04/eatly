@@ -6,16 +6,25 @@ import NotFound from "./pages/notFound/NotFound";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./components/footer/Footer";
 import Dashes from "./pages/dishes/Dashes";
+import Login from "./pages/login/Login";
+import ForgetPassword from "./pages/forget/ForgetPassword";
+import Register from "./pages/register/Register";
+import { useState } from "react";
 
 const App = () => {
+  // const [user, setUser] = useState("");
+  const [name, setName] = useState("");
   return (
     <div>
       <Router>
-        <Header />
+        <Header name={name} />
         <Routes>
           <Route path="home" element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path="dishes" element={<Dashes />} />
+          {/* <Route path="login" element={<Login setName={setName} />} /> */}
+          {/* <Route path="forget" element={<ForgetPassword />} /> */}
+          {/* <Route path="register" element={<Register />} /> */}
         </Routes>
         <Footer />
       </Router>

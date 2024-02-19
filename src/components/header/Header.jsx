@@ -5,10 +5,10 @@ import { NavLink } from "react-router-dom";
 import { logo } from "../../assets";
 import { korzinka } from "../../assets";
 
-const Header = () => {
+const Header = ({ name }) => {
   return (
     <div>
-      <header>
+      <header id="navbar">
         <div className="container">
           <div className="wrapper d-flex justify-content-between align-items-center ">
             <div className="wrapper__left d-flex wrapper d-flex justify-content-between align-items-center align-self-center">
@@ -18,10 +18,10 @@ const Header = () => {
               <div className="header__left-nav">
                 <nav>
                   <ul className="list d-flex justify-content-between align-items-center">
-                    <NavLink className="item" to="home">
+                    <NavLink className="item" to="/home">
                       Home
                     </NavLink>
-                    <NavLink className="item" to="dishes">
+                    <NavLink className="item" to="/dishes">
                       Dishes
                     </NavLink>
                   </ul>
@@ -36,12 +36,17 @@ const Header = () => {
                   </li>
                   <li>
                     <button className="btn1">
-                      <NavLink className="btn1-login">Login</NavLink>
+                      {name ? name : null}
+                      <NavLink to="/login" className="btn1-login">
+                        Login
+                      </NavLink>
                     </button>
                   </li>
                   <li>
                     <button className="btn2">
-                      <NavLink className="btn2-login">Sign up</NavLink>
+                      <NavLink to="/register" className="btn2-login">
+                        Sign up
+                      </NavLink>
                     </button>
                   </li>
                 </ul>

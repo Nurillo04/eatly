@@ -25,8 +25,18 @@ import getfood from "./PNG/getfood.png";
 import logofooter from "./PNG/Logofooter.png";
 import minus from "./PNG/minus.png";
 import plus from "./PNG/Plus.png";
+import odamcha from "./PNG/odamcha.png";
+import look from "./SVG/Lock.svg";
+import email from "./SVG/Email.svg";
+import loginlogo from "./PNG/Logologin.png";
+import rasml from "./PNG/rasm.png";
 
 export {
+  rasml,
+  loginlogo,
+  email,
+  look,
+  odamcha,
   minus,
   plus,
   logofooter,

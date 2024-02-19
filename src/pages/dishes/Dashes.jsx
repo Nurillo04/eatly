@@ -1,11 +1,13 @@
 import React from "react";
 import Asked from "../../components/asked/Asked";
-import Card from "../../components/card/Card";
+// import Card from "../../components/card/Card";
+import DishesCart from "../../components/dishesCart/DishesCart";
 
 const Dashes = () => {
   return (
     <div>
-      <Card />
+      <DishesCart />
+      {/* <Card /> */}
       <Asked />
     </div>
   );

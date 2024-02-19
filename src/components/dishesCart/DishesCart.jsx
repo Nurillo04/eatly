@@ -57,7 +57,7 @@ const DishesCart = () => {
                   <p className="cards__sum">
                     <span className="cards__spans">{product.dollor}</span>
                   </p>
-                  <img src={product.add} alt="add" />
+                  <img src={product.image4} alt="add" />
                 </div>
               </li>
             ))}

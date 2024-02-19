@@ -111,3 +111,14 @@ hr {
   // top: 0;
   // z-index: 99;
 }
+.hamburger__menu {
+  display: none;
+}
+@media only screen and (max-width: 375px) {
+  .wrapper__right {
+    display: none;
+  }
+  .header__left-nav {
+    display: none;
+  }
+}

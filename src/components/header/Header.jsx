@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Header.scss";
 import { NavLink } from "react-router-dom";
 
@@ -6,6 +6,11 @@ import { logo } from "../../assets";
 import { korzinka } from "../../assets";
 
 const Header = ({ name }) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <div>
       <header id="navbar">
@@ -48,6 +53,22 @@ const Header = ({ name }) => {
                     </NavLink>
                   </li>
                 </ul>
+                <div className="hamburger__menu">
+                  <button
+                    className={`menu-btn ${isOpen ? "open" : ""}`}
+                    onClick={toggleMenu}
+                  >
+                    <div className="menu-btn-burger"></div>
+                    <div className="menu-btn-burger"></div>
+                    <div className="menu-btn-burger"></div>
+                  </button>
+                  <div className={`menu-items ${isOpen ? "open" : ""}`}>
+                    <NavLink to="/home">Home</NavLink>
+                    <NavLink to="/dishes">Dishes</NavLink>
+                    <NavLink to="/login">Login</NavLink>
+                    <NavLink to="/register">Sign Up</NavLink>
+                  </div>
+                </div>
               </nav>
             </div>
           </div>

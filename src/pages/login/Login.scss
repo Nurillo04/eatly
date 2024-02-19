@@ -139,3 +139,78 @@
     }
   }
 }
+@media only screen and (max-width: 375px) {
+  .login {
+    padding: 10px 2px;
+    width: 360px;
+    border: 1px solid red;
+    &__wrapper {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+    }
+    &__left {
+      max-width: 300px;
+      margin: 0;
+      padding: 5px 0px;
+    }
+    &__back {
+      padding: 8px 2px;
+      border-radius: 6px;
+      border: 0px;
+      margin-left: 5px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 600;
+      font-style: normal;
+      display: none;
+    }
+    &__title {
+      margin-bottom: 30px;
+      font-size: 18px;
+    }
+    &__div {
+      background-color: #f5f5f5;
+      padding: 10px 10px;
+      margin-bottom: 5px;
+      border-radius: 8px;
+    }
+    &__email {
+      margin-left: 2px;
+    }
+    &__password {
+      margin-left: 2px;
+    }
+    &__forget {
+      display: flex;
+      justify-content: start;
+    }
+    &__btn {
+      margin-top: 30px;
+      padding: 8px 5px;
+    }
+    &__subtitle {
+      font-weight: 400;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    &__bottom {
+      margin-top: 23px;
+      display: flex;
+      justify-content: start;
+      align-items: end;
+    }
+    &__right {
+      display: none;
+    }
+    &__title2 {
+      font-size: 16px;
+    }
+    &__right-text {
+      font-weight: 400;
+    }
+  }
+}
